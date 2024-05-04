@@ -1,0 +1,204 @@
+
+> profesiteso@1.0.0 test
+> cucumber-js
+
+P--P----P-----P------P--------P---------P--P--P--P--P--P--P--P--P--P--P--P-UP-UP-UP--UP--U
+
+Failures:
+
+1) Scenario: Debo poder seleccionar una o varias razones predefinidas para el reporte o proporcionar mi propia explicación. # features/report_comments.feature:9
+   ? Given que soy un usuario de la plataforma # features/step_definitions/report_comments.js:4
+       Pending
+   - When reporto un comentario inapropiado # features/step_definitions/report_comments.js:19
+   ? Then debo poder seleccionar una o varias razones predefinidas para el reporte o proporcionar mi propia explicación.
+       Undefined. Implement with the following snippet:
+
+         Then('debo poder seleccionar una o varias razones predefinidas para el reporte o proporcionar mi propia explicación.', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+
+2) Scenario: Después de realizar el reporte, debo recibir una confirmación de que mi reporte ha sido registrado correctamente. # features/report_comments.feature:14
+   ? Given que soy un usuario de la plataforma # features/step_definitions/report_comments.js:4
+       Pending
+   - When reporto un comentario inapropiado # features/step_definitions/report_comments.js:19
+   ? Then debo recibir una confirmación de que mi reporte ha sido registrado correctamente.
+       Undefined. Implement with the following snippet:
+
+         Then('debo recibir una confirmación de que mi reporte ha sido registrado correctamente.', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+
+3) Scenario: El sistema debe marcar el comentario reportado para revisión por parte de los moderadores. # features/report_comments.feature:19
+   ? Given que soy un usuario de la plataforma # features/step_definitions/report_comments.js:4
+       Pending
+   - When reporto un comentario inapropiado # features/step_definitions/report_comments.js:19
+   ? Then el sistema debe marcar el comentario reportado para revisión por parte de los moderadores.
+       Undefined. Implement with the following snippet:
+
+         Then('el sistema debe marcar el comentario reportado para revisión por parte de los moderadores.', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+
+4) Scenario: Si un comentario ha sido reportado múltiples veces, los moderadores deben ser notificados para una revisión prioritaria. # features/report_comments.feature:24
+   ? Given que soy un usuario de la plataforma # features/step_definitions/report_comments.js:4
+       Pending
+   - When reporto un comentario inapropiado # features/step_definitions/report_comments.js:19
+   - And el comentario ha sido reportado múltiples veces # features/step_definitions/report_comments.js:48
+   ? Then los moderadores deben ser notificados para una revisión prioritaria.
+       Undefined. Implement with the following snippet:
+
+         Then('los moderadores deben ser notificados para una revisión prioritaria.', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+
+5) Scenario: Los usuarios que abusen de la función de reporte deben recibir advertencias o sanciones. # features/report_comments.feature:30
+   ? Given que soy un usuario de la plataforma # features/step_definitions/report_comments.js:4
+       Pending
+   - When reporto un comentario inapropiado # features/step_definitions/report_comments.js:19
+   - And reporto comentarios de forma abusiva # features/step_definitions/report_comments.js:58
+   ? Then debo recibir advertencias o sanciones.
+       Undefined. Implement with the following snippet:
+
+         Then('debo recibir advertencias o sanciones.', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+
+Warnings:
+
+1) Scenario: En el que verificamos en la base de datos los datos de profesores que se pueden asociar a que materias # features/connect_subjects.feature:4
+   ? Given Un administrador que quiere conectar materias a uno o más profesores # features/step_definitions/connect_subjects.js:3
+       Pending
+   - When Selecciona la opción de conectar materias a profesores # features/step_definitions/connect_subjects.js:8
+   - Then Se muestra una lista de profesores que se pueden asociar a materias # features/step_definitions/connect_subjects.js:13
+
+2) Scenario: En el que verificaremos en la base de datos los datos de estos # features/connect_subjects.feature:9
+   ? Given Un administrador que quiere conectar materias a uno o más profesores # features/step_definitions/connect_subjects.js:3
+       Pending
+   - When Selecciona la opción de conectar materias a profesores # features/step_definitions/connect_subjects.js:8
+   - Then Se muestra una lista de profesores que se pueden asociar a materias # features/step_definitions/connect_subjects.js:13
+   - And Selecciona un profesor # features/step_definitions/connect_subjects.js:18
+   - Then Se muestra una lista de materias que se pueden asociar a ese profesor # features/step_definitions/connect_subjects.js:23
+
+3) Scenario: En el que habrá un modal que saldrá para avisar que se realizo # features/connect_subjects.feature:16
+   ? Given Un administrador que quiere conectar materias a uno o más profesores # features/step_definitions/connect_subjects.js:3
+       Pending
+   - When Selecciona la opción de conectar materias a profesores # features/step_definitions/connect_subjects.js:8
+   - And Selecciona un profesor # features/step_definitions/connect_subjects.js:18
+   - And Selecciona una materia # features/step_definitions/connect_subjects.js:28
+   - And Da clic en el botón de conectar # features/step_definitions/connect_subjects.js:33
+   - Then Se muestra un modal que indica que se realizó la conexión # features/step_definitions/connect_subjects.js:38
+
+4) Scenario: En el que habrá un botón a un lado del profesor asociado para eliminarlo # features/connect_subjects.feature:24
+   ? Given Un administrador que quiere conectar materias a uno o más profesores # features/step_definitions/connect_subjects.js:3
+       Pending
+   - When Selecciona la opción de conectar materias a profesores # features/step_definitions/connect_subjects.js:8
+   - And Selecciona un profesor # features/step_definitions/connect_subjects.js:18
+   - And Selecciona una materia # features/step_definitions/connect_subjects.js:28
+   - And Da clic en el botón de conectar # features/step_definitions/connect_subjects.js:33
+   - Then Se muestra un modal que indica que se realizó la conexión # features/step_definitions/connect_subjects.js:38
+   - And Se muestra un botón a un lado del profesor asociado para eliminarlo # features/step_definitions/connect_subjects.js:43
+
+5) Scenario: En el que aparecerá un modal que avisará sobre el intento de asociación # features/connect_subjects.feature:33
+   ? Given Un administrador que quiere conectar materias a uno o más profesores # features/step_definitions/connect_subjects.js:3
+       Pending
+   - When Selecciona la opción de conectar materias a profesores # features/step_definitions/connect_subjects.js:8
+   - And Selecciona un profesor # features/step_definitions/connect_subjects.js:18
+   - And Selecciona una materia # features/step_definitions/connect_subjects.js:28
+   - And Da clic en el botón de conectar # features/step_definitions/connect_subjects.js:33
+   - Then Se muestra un modal que indica que se realizó la conexión # features/step_definitions/connect_subjects.js:38
+   - And Se muestra un botón a un lado del profesor asociado para eliminarlo # features/step_definitions/connect_subjects.js:43
+   - And Selecciona el botón de eliminar # features/step_definitions/connect_subjects.js:48
+   - Then Se muestra un modal que indica que se eliminó la conexión # features/step_definitions/connect_subjects.js:53
+
+6) Scenario: En el que harán por medio del back-end para realizar las asignaciones # features/connect_subjects.feature:44
+   ? Given Un administrador que quiere conectar materias a uno o más profesores # features/step_definitions/connect_subjects.js:3
+       Pending
+   - When Selecciona la opción de conectar materias a profesores # features/step_definitions/connect_subjects.js:8
+   - And Selecciona un profesor # features/step_definitions/connect_subjects.js:18
+   - And Selecciona una materia # features/step_definitions/connect_subjects.js:28
+   - And Da clic en el botón de conectar # features/step_definitions/connect_subjects.js:33
+   - Then Se muestra un modal que indica que se realizó la conexión # features/step_definitions/connect_subjects.js:38
+   - And Se muestra un botón a un lado del profesor asociado para eliminarlo # features/step_definitions/connect_subjects.js:43
+   - And Selecciona el botón de eliminar # features/step_definitions/connect_subjects.js:48
+   - Then Se muestra un modal que indica que se eliminó la conexión # features/step_definitions/connect_subjects.js:53
+   - And Se realiza la eliminación de la conexión en la base de datos # features/step_definitions/connect_subjects.js:58
+
+7) Scenario: En el que solo se podrá tener un usuario si este no existe # features/crear_user.feature:4
+   ? Given que el usuario se encuentra en la pantalla de registro # features/step_definitions/crear_user.js:4
+       Pending
+   - When el usuario ingresa un nombre de usuario que ya existe # features/step_definitions/crear_user.js:9
+   - Then el sistema le mostrará un mensaje de error indicando que el nombre de usuario ya existe # features/step_definitions/crear_user.js:14
+
+8) Scenario: En el que se le pedira al usuario que cambie de nombre si este esta intentando usar uno que ya exista # features/crear_user.feature:9
+   ? Given que el usuario se encuentra en la pantalla de registro # features/step_definitions/crear_user.js:4
+       Pending
+   - When el usuario ingresa un nombre de usuario que ya existe # features/step_definitions/crear_user.js:9
+   - Then el sistema le mostrará un mensaje de error indicando que el nombre de usuario ya existe y le pedirá que ingrese otro nombre de usuario # features/step_definitions/crear_user.js:22
+
+9) Scenario: En el que habrá una opción de modificación de perfil para realizar esto # features/crear_user.feature:14
+   ? Given que el usuario se encuentra en la pantalla de perfil # features/step_definitions/crear_user.js:30
+       Pending
+   - When el usuario selecciona la opción de modificar perfil # features/step_definitions/crear_user.js:35
+   - Then el sistema le mostrará un campo para modificar el nombre de usuario # features/step_definitions/crear_user.js:40
+
+10) Scenario: En el que se le pedira alusuario que cambie de nombre si este esta intentando usar uno que ya exista # features/crear_user.feature:19
+    ? Given que el usuario se encuentra en la pantalla de perfil # features/step_definitions/crear_user.js:30
+        Pending
+    - When el usuario selecciona la opción de modificar perfil # features/step_definitions/crear_user.js:35
+    - Then el sistema le mostrará un campo para modificar el nombre de usuario y le pedirá que ingrese otro nombre de usuario # features/step_definitions/crear_user.js:45
+
+11) Scenario: En el que se realizará un chequeo cuando un usuario quiera registrar un usuario o cambiar de nombre # features/crear_user.feature:24
+    ? Given que el usuario se encuentra en la pantalla de registro o perfil # features/step_definitions/crear_user.js:53
+        Pending
+    - When el usuario ingresa un nombre de usuario # features/step_definitions/crear_user.js:58
+    - Then el sistema verificará si el nombre de usuario ya existe en la base de datos # features/step_definitions/crear_user.js:63
+
+12) Scenario: Como profesor, debo poder acceder a mis calificaciones y reseñas desde mi perfil en la plataforma. # features/rating_profes.feature:4
+    ? Given que soy un profesor # features/step_definitions/rating_profes.js:4
+        Pending
+    - When accedo a mi perfil # features/step_definitions/rating_profes.js:9
+    - Then puedo ver mis calificaciones y reseñas de los estudiantes # features/step_definitions/rating_profes.js:14
+
+13) Scenario: No debo ver ninguna opción que me permita calificarme a mí mismo. # features/rating_profes.feature:9
+    ? Given que soy un profesor # features/step_definitions/rating_profes.js:4
+        Pending
+    - When accedo a mi perfil # features/step_definitions/rating_profes.js:9
+    - Then no puedo ver ninguna opción que me permita calificarme a mí mismo # features/step_definitions/rating_profes.js:19
+
+14) Scenario: Las calificaciones y reseñas deben mostrarse de manera clara y legible en mi perfil. # features/rating_profes.feature:14
+    ? Given que soy un profesor # features/step_definitions/rating_profes.js:4
+        Pending
+    - When accedo a mi perfil # features/step_definitions/rating_profes.js:9
+    - Then las calificaciones y reseñas deben mostrarse de manera clara y legible en mi perfil # features/step_definitions/rating_profes.js:24
+
+15) Scenario: Si intento calificarme a mí mismo, debo recibir un mensaje de advertencia indicando que no es posible. # features/rating_profes.feature:19
+    ? Given que soy un profesor # features/step_definitions/rating_profes.js:4
+        Pending
+    - When intento calificarme a mí mismo # features/step_definitions/rating_profes.js:32
+    - Then debo recibir un mensaje de advertencia indicando que no es posible # features/step_definitions/rating_profes.js:37
+
+16) Scenario: Las calificaciones y reseñas deben estar actualizadas y reflejar con precisión el feedback de los estudiantes. # features/rating_profes.feature:24
+    ? Given que soy un profesor # features/step_definitions/rating_profes.js:4
+        Pending
+    - When accedo a mi perfil # features/step_definitions/rating_profes.js:9
+    - Then las calificaciones y reseñas deben estar actualizadas y reflejar con precisión el feedback de los estudiantes # features/step_definitions/rating_profes.js:42
+
+17) Scenario: Como usuario, debo poder encontrar fácilmente la opción para reportar un comentario. # features/report_comments.feature:4
+    ? Given que soy un usuario de la plataforma # features/step_definitions/report_comments.js:4
+        Pending
+    - When veo un comentario inapropiado # features/step_definitions/report_comments.js:9
+    - Then debo poder encontrar fácilmente la opción para reportar un comentario. # features/step_definitions/report_comments.js:14
+
+22 scenarios (5 undefined, 17 pending)
+90 steps (5 undefined, 22 pending, 63 skipped)
+0m00.108s (executing steps: 0m00.002s)
